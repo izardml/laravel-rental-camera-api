@@ -35,3 +35,4 @@ Route::post('/login', [AuthController::class, 'login']);
     Route::get('/camera', [CameraController::class, 'index']);
     Route::get('/camera/{id}', [CameraController::class, 'show']);
 // });
+#
